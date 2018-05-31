@@ -9,12 +9,13 @@ body {
 }
 
 .hero-content h1 {
-    position: absolute;
-    top: 6%;
-    left: 22%;
-    color: white;
-    font-size: 50px;
-    letter-spacing: 3px;
+  position: absolute;
+  top: 43%;
+  left: 8%;
+  color: white;
+  font-size: 22px;
+  FONT-STYLE: ITALIC;
+  letter-spacing: 3px;
 }
 
 .hero {
@@ -38,7 +39,19 @@ body {
   position: absolute;
   top: 20%;
   max-width: 50%;
-  left: 5%;
+  left: 4%;
+  transform: translateX(2%);
+  animation: slideIn 0.6s ease;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-60%);
+  }
+
+  100% {
+    transform: translateX(2%);
+  }
 }
 
 button {
@@ -140,10 +153,22 @@ button:hover {
   font-size: 50px;
   letter-spacing: 2px;
   margin: 0;
+  transform: translateY(3%);
   padding-top: 150px;
   padding-bottom: 30px;
   text-align: center;
   color: white;
+  animation: slideUp 0.6s;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(20%);
+  }
+
+  100% {
+    transform: translateY(3%);
+  }
 }
 
 .side-img img {

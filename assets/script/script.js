@@ -46,3 +46,16 @@ else{
         }
       }
         window.addEventListener("scroll",Scroll4);
+/***************************************/
+
+function slideUp(){
+var headline = document.querySelector("#footer-headline");
+var ypos = window.pageYOffset;
+if(ypos > 3300 ) {
+headline.style.opacity = "1";
+}
+else{
+  headline.style.opacity = "0";
+  }
+}
+  window.addEventListener("scroll",slideUp);
