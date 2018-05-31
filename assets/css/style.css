@@ -136,7 +136,7 @@ button:hover {
   letter-spacing: 2px;
   margin: 0;
   padding-top: 150px;
-  padding-bottom: 70px;
+  padding-bottom: 30px;
   text-align: center;
   color: white;
 }
@@ -151,10 +151,48 @@ button:hover {
   margin: auto;
 }
 
+#c-to-a {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 200;
+  padding-bottom: 30px;
+  color: white;
+}
+
 .inner-content {
   display: flex;
   width: 80%;
   margin: auto;
   height: 100%;
   color: white;
+}
+
+.socials {
+width: 18%;
+margin: auto;
+display: flex;
+flex-direction: column;
+padding-bottom: 100px;
+}
+
+#instagram, #facebook {
+  width: 46px;
+  align-self: center;
+}
+
+.instagram, .facebook {
+  flex-direction: row;
+  display: flex;
+  padding: 20px 0;
+}
+
+.instagram a, .facebook a {
+  display: flex;
+  align-self: center;
+  margin: 0 30px;
+  color: white;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 200;
 }
