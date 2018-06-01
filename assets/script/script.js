@@ -84,3 +84,13 @@ btn.addEventListener("click", function(event) {
       "behavior": "smooth",
       "top": 0
   }); });
+
+  var btn2 = document.querySelector('#btn2');
+  var sec = document.querySelector('#section-two');
+  var pos = sec.offsetTop;
+  btn2.addEventListener("click", function(event) {
+    if (event.target == btn2)
+    window.scrollTo({
+        "behavior": "smooth",
+        "top": pos
+    }); });

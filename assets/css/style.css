@@ -339,3 +339,7 @@ animation: slideUp 1s;
   width: 23%;
   margin: auto;
 }
+
+body button {
+  outline:0;  
+}
