@@ -25,7 +25,7 @@ else{
     function Scroll3(){
     var img3 = document.querySelector("#img-three");
     var ypos = window.pageYOffset;
-    if(ypos > 2000 && ypos < 2500) {
+    if(ypos > 2600 && ypos < 3200) {
     img3.style.opacity = "1";
     }
     else{
@@ -38,7 +38,7 @@ else{
       function Scroll4(){
       var img4 = document.querySelector("#img-four");
       var ypos = window.pageYOffset;
-      if(ypos > 2800 && ypos < 3100) {
+      if(ypos > 3500 && ypos < 4800) {
       img4.style.opacity = "1";
       }
       else{
@@ -65,9 +65,9 @@ else{
   function bounceIn () {
     var phone = document.querySelector("#img-five");
     var ypos = window.pageYOffset;
-    if(ypos > 3680 ) {
+    if(ypos > 4200 ) {
           phone.classList.add("animationtwo");
-    } 
+    }
   }
 
 window.addEventListener("scroll",bounceIn);

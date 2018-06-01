@@ -94,11 +94,11 @@ header a {
 }
 
 #section-two {
-  background-color: #0F6E06;
+  background-color: #1C6716;
 }
 
 #section-three {
-  background-color: #338E2A;
+  background-color: #51A549;
 }
 
 #section-four {
@@ -108,6 +108,10 @@ header a {
 #section-five {
   background-color: #A2DD9C;
   max-width: 100%;
+}
+
+#middle-section {
+  background-color: #25831D;
 }
 
 
@@ -134,7 +138,7 @@ header a {
 }
 
 #img-one {
-  width: 250px;
+  width: 500px;
   transition:all 0.4s;
 }
 
@@ -158,6 +162,10 @@ header a {
     display: flex;
     margin: auto;
 
+}
+
+#proof {
+  width: 1200px;
 }
 
 #footer-headline {
@@ -358,4 +366,21 @@ body button {
 .click-here {
   width: 50%;
 margin: auto;
+}
+
+
+.middle-content {
+  width: 84%;
+  margin: auto;
+  padding: 200px 0;
+}
+
+.middle-content h1 {
+  text-align: center;
+  color: white;
+  font-weight: 200;
+  font-size: 30px;
+  font-style: italic;
+  letter-spacing: 2px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
