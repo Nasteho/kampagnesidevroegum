@@ -154,9 +154,9 @@ header a {
 }
 
 #img-five {
-  max-width: 20%;
-  display: flex;
-  margin: auto;
+  width: 290px;
+    display: flex;
+    margin: auto;
 
 }
 
@@ -341,5 +341,21 @@ animation: slideUp 1s;
 }
 
 body button {
-  outline:0;  
+  outline:0;
+}
+
+#click-here {
+  width: 400px;
+}
+
+.phone-section {
+  display: flex;
+    width: 50%;
+    margin: auto;
+    flex-direction: row;
+}
+
+.click-here {
+  width: 50%;
+margin: auto;
 }

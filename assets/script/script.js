@@ -67,9 +67,7 @@ else{
     var ypos = window.pageYOffset;
     if(ypos > 3680 ) {
           phone.classList.add("animationtwo");
-    } else {
-      phone.classList.remove("animationtwo");
-    }
+    } 
   }
 
 window.addEventListener("scroll",bounceIn);
