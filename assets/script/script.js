@@ -13,7 +13,7 @@ else{
   function Scroll2(){
   var img2 = document.querySelector("#img-two");
   var ypos = window.pageYOffset;
-  if(ypos > 1300 && ypos < 1700) {
+  if(ypos > 950 && ypos < 1700) {
   img2.style.opacity = "1";
   }
   else{
@@ -38,7 +38,7 @@ else{
       function Scroll4(){
       var img4 = document.querySelector("#img-four");
       var ypos = window.pageYOffset;
-      if(ypos > 3500 && ypos < 4800) {
+      if(ypos > 3200 && ypos < 3800) {
       img4.style.opacity = "1";
       }
       else{
